@@ -10,9 +10,9 @@ class PrintMenuOptions
             Console.WriteLine("------------------");
         }
     }
-    public static void PrintDrinks(Drink[] dreinks)
+    public static void PrintDrinks(Drink[] drinks)
     {
-        foreach (var drink in dreinks)
+        foreach (var drink in drinks)
         {
             Console.WriteLine("------------------");
             drink.PrintBasicInfo();
